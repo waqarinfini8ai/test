@@ -1,0 +1,7 @@
+ if (process.browser) {
+         localStorage.setItem(
+                "workout_name",
+                JSON.stringify(item.name)
+              );
+
+      }
